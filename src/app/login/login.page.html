@@ -1,9 +1,23 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>login</ion-title>
+    <ion-title></ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-
+<ion-content id="content">
+  <ion-list inset="false" id="listB">
+  <ion-item>
+    <ion-label position="floating" > E-mail
+    </ion-label>
+    <ion-input autocapite="on" clearInput="true" color="dark" minlength="8" ></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating"> Password
+    </ion-label>
+    <ion-input id="pwd" type="password" clearInput="true" color ="dark" minlenght="8"></ion-input>
+  </ion-item>
+  <ion-list inset="false" id="listB" style="text-align:center">
+  <ion-button id ="LoginB" size="defoult"  color="danger" >Login</ion-button>
+</ion-list>
+</ion-list>
 </ion-content>
