@@ -6,5 +6,14 @@ text-align: center;
 }
 #content{
 width: 50%;
+height: 35%;
+top: 23%;
 left: 26%;
+--background: #353537b2;
+}
+ion-content.back{
+    --background: url(https://miro.medium.com/max/10368/1*X10oaIkVMFin2-GkCpI6jw.jpeg) 100% 100% no-repeat;
+}
+#items{
+    --background: transparent;
 }

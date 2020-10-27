@@ -7,6 +7,15 @@
     background-color: transparent;
 }
 #content{
-width: 50%;
-left: 26%;
+width: 60%;
+height: 60%;
+top: 25%;
+--background: #353537b2;
+left: 20%;
+}
+ion-content.back{
+    --background: url(https://miro.medium.com/max/10368/1*X10oaIkVMFin2-GkCpI6jw.jpeg) 100% 100% no-repeat;
+}
+#items{
+    --background: transparent;
 }
