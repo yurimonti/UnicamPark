@@ -7,14 +7,6 @@ const routes: Routes = [
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   },
   {
-    path: 'login',
-    loadChildren: () => import('./login/login.module').then(m => m.LoginPageModule)
-  },
-  {
-    path : 'registartion',
-    loadChildren: () => import('./registration/registration.module').then(m => m.RegistrationPageModule)
-  },
-  {
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
@@ -27,6 +19,11 @@ const routes: Routes = [
     path: 'registration',
     loadChildren: () => import('./registration/registration.module').then( m => m.RegistrationPageModule)
   },
+  {
+    path: 'parks',
+    loadChildren: () => import('./parks/parks.module').then( m => m.ParksPageModule)
+  },
+
 
 
 ];
